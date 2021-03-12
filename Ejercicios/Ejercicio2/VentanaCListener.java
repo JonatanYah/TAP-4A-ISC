@@ -25,7 +25,7 @@ public class VentanaCListener extends Frame implements ActionListener  {
      * Inicializamos los widgets y los metemos al contenedor
      */
     public void init() {
-        ArrayList array = new ArrayList<>();
+
         isClicked = false;
         btn_click = new Button("Aceptar");
         btn_clear = new Button("Limpiar");
