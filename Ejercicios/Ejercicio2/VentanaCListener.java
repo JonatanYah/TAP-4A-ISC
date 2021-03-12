@@ -7,7 +7,7 @@ import java.awt.Label;
 import java.awt.TextArea;
 import java.awt.BorderLayout;
 import java.awt.event.*;
-import java.util.ArrayList;
+
 
 public class VentanaCListener extends Frame implements ActionListener  {
 
@@ -81,6 +81,7 @@ public class VentanaCListener extends Frame implements ActionListener  {
         if (arg0.getSource() == btn_clear) {
             txt_result.setText("");
             txt_in.setText("");
+            suma=0;
         }
         isClicked = !isClicked;
     }
