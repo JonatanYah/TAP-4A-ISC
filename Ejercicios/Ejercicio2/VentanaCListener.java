@@ -98,6 +98,8 @@ public class VentanaCListener extends Frame implements ActionListener  {
     boolean isClicked;
     public static boolean isNum(String texto)
             {
-                return texto.matches("[0-9999]");
+                int rango;
+                rango.matches([0-9]);
+                return texto.matches("[0-9]{rango}");
             }
 }
