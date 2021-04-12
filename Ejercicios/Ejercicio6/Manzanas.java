@@ -4,6 +4,7 @@ public class Manzanas extends Canvas {
     
     private static final long serialVersionUID = 1L;
     private int x, y;
+    
     private int w, h;
     private boolean isClicked;
 

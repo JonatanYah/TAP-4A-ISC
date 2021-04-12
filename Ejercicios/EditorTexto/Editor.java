@@ -22,8 +22,9 @@ public class Editor extends Frame implements ActionListener  {
     private static final long serialVersionUID = 1L;
  
     public Editor() {
+        super("Editor de texto");
         this.init();
-        this.setSize(500, 300);
+        setBounds(400,200,500,300);
         this.setVisible(true);
     }
     /**
@@ -130,11 +131,12 @@ public class Editor extends Frame implements ActionListener  {
             txt_status.setText("Color de texto cambiado a "+Tam);
         }
         if (arg0.getSource() == comillas) {
-      String texto, parte;
-      texto = txt_result.getText();
-        parte=(txt_result.getSelectedText());
-        txt_result.setText(texto.split(parte)[0]+"'"+"'"+parte+"'"+"'"+texto.split(parte)[1]);
-        txt_status.setText("Comillas agregdas en: "+parte);
+            txt_status.setText("agregando comillas...");
+            String texto, parte;
+            texto = txt_result.getText();
+            parte=(txt_result.getSelectedText());
+            txt_result.setText(texto.split(parte)[0]+"'"+"'"+parte+"'"+"'"+texto.split(parte)[1]);
+            txt_status.setText("Comillas agregdas en: "+parte);
         }
         if (arg0.getSource() == abrir) {
             txt_status.setText("abriendo archivos...");
