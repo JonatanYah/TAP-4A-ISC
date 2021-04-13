@@ -1,0 +1,10 @@
+C:\Users\Jonatan\source\repos\Practica2encsharp\bin\Debug\Practica2encsharp.exe.config
+C:\Users\Jonatan\source\repos\Practica2encsharp\bin\Debug\Practica2encsharp.exe
+C:\Users\Jonatan\source\repos\Practica2encsharp\bin\Debug\Practica2encsharp.pdb
+C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.Form1.resources
+C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.Properties.Resources.resources
+C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.csproj.GenerateResource.cache
+C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.csproj.CoreCompileInputs.cache
+C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.exe
+C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.pdb
+C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.csprojAssemblyReference.cache

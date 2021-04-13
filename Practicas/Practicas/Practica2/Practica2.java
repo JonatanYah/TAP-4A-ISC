@@ -24,24 +24,10 @@ public class Practica2 extends JFrame {
         color = new JButton("Cambio de color (A)");
         color.setFocusable(false);
         color.addActionListener(e -> colorActionPerformed(e));
-        
-               
-    
-
-        
-
         Boton = new JPanel();
         Boton.add(color);
-       
-       
-
-        
         contenedor = new JPanel();
         contenedor.setPreferredSize(new Dimension(200, 400));
-        
-        
-        
-
         Canvas = new Pintar();
         Canvas.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {

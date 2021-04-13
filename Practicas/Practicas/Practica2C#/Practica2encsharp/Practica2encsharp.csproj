@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78AFD705-66F4-40CC-A490-DA445ADEF243}</ProjectGuid>
+    <ProjectGuid>{E13F2E6E-5E2A-4EEA-A369-B8CD9EB2BCBD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CalculadoraGUI</RootNamespace>
-    <AssemblyName>CalculadoraGUI</AssemblyName>
+    <RootNamespace>Practica2encsharp</RootNamespace>
+    <AssemblyName>Practica2encsharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Metodos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
