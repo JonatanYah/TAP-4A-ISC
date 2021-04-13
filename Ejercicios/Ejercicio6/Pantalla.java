@@ -3,7 +3,6 @@ import java.awt.Frame;
 import java.awt.event.*;
 
 import ejercicios.ejercicio5.Contenedor;
-import ejercicios.ejercicio5.Manzanas;
 public class Pantalla extends Frame implements MouseListener, MouseMotionListener, KeyListener {
 
     /**

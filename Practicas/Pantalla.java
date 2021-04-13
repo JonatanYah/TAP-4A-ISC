@@ -13,6 +13,7 @@ public class Pantalla extends Frame implements  KeyListener {
 
     public Pantalla() {
         initComponents();
+       
     }
 
     public void initComponents() {
