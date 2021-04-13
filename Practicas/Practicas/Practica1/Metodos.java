@@ -16,7 +16,7 @@ public class Metodos {
                 if (dato1 > 0 && dato2 > 0) {
                     int divicion = dato1 / dato2;
                     return divicion + "";
-                } else {
+                } else if(dato2<=0){
                     return "ERROR, NO ES POSIBLE DIVIDIR ENTRE 0";
                 }
     

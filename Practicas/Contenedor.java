@@ -1,4 +1,4 @@
-package Juego;
+package Practicas;
 import java.awt.*;
 
 public class Contenedor extends Canvas{

@@ -8,7 +8,6 @@ import java.awt.event.*;
 public class CalculadoraGUI extends Frame implements ActionListener{
     //atributos
     Panel panel1;
-    //Panel central;
     Panel panelNumeros;
     TextField entrada;
     int dato1;
@@ -39,7 +38,7 @@ public class CalculadoraGUI extends Frame implements ActionListener{
 
     //constructor
     public CalculadoraGUI(String nombre){
-    super("calculadora de hasta 20 números ");
+    super("calculadora simple ");
     //componeentes de la interfaz
     //
     this.init();
@@ -117,7 +116,7 @@ public class CalculadoraGUI extends Frame implements ActionListener{
     public void actionPerformed(ActionEvent arg0) {
         if (arg0.getSource() == bt0){
             entrada.setText(entrada.getText() + "0");
-        }//Al presionar algún boton con un número se muestra lo que está en el TextField seguido del número que se presionó.
+        }
         if (arg0.getSource() == bt1){
             entrada.setText(entrada.getText() + "1");
         }
@@ -197,9 +196,12 @@ public class CalculadoraGUI extends Frame implements ActionListener{
         }
         if (arg0.getSource() == btres){
             String leer = entrada.getText();
+
             if(isNumber(leer)){
                 dato2=Integer.parseInt(leer);
+              
                 entrada.setText(m.Operaciones(dato1, dato2, operacion));//Llamada al método.
+               
             }
             else
             entrada.setText("Ingrese solamente números");
@@ -216,6 +218,7 @@ public class CalculadoraGUI extends Frame implements ActionListener{
         }
         return isnumber;
     }
+    
 public static void main(String args[]) {
     CalculadoraGUI v = new CalculadoraGUI("XD");
     v.addWindowListener(new WindowAdapter(){
