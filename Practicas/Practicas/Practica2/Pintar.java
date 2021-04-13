@@ -3,15 +3,8 @@ package Practicas.Practicas.Practica2;
 import java.awt.*;
 import javax.swing.*;
 
-/**
- *
- * @author molin
- */
 public class Pintar extends JPanel {
 
-    /**
-     *
-     */
     private static final long serialVersionUID = 1L;
     private int x, y;
     private int w, h;
