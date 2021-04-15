@@ -1,4 +1,4 @@
-package Ejercicios.Practicas.Practica1;
+package Practicas.Practicas.Practica1;
 
 public class Metodos {
     

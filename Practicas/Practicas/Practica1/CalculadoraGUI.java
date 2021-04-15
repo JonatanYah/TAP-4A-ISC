@@ -1,4 +1,4 @@
-package Ejercicios.Practicas.Practica1;
+package Practicas.Practicas.Practica1;
 
 import java.awt.BorderLayout;
 import java.awt.*;
@@ -219,11 +219,4 @@ public class CalculadoraGUI extends Frame implements ActionListener{
         return isnumber;
     }
     
-public static void main(String args[]) {
-    CalculadoraGUI v = new CalculadoraGUI("XD");
-    v.addWindowListener(new WindowAdapter(){
-        public void windowClosing(WindowEvent e) {
-            System.exit(0);
-        }
-    });
-}}
+}
