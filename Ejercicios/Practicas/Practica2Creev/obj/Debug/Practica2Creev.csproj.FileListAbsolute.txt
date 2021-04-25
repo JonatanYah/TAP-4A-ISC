@@ -1,0 +1,14 @@
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\bin\Debug\Practica2Creev.exe.config
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\bin\Debug\Practica2Creev.exe
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\bin\Debug\Practica2Creev.pdb
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.csprojAssemblyReference.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.Form1.resources
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.Properties.Resources.resources
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.csproj.GenerateResource.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.csproj.CoreCompileInputs.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.exe
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.pdb
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\bin\Debug\Recursos\red.png
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\bin\Debug\Recursos\rombo.png
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\bin\Debug\Recursos\b1.png
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Ejercicios\Practicas\Practica2Creev\obj\Debug\Practica2Creev.Form2.resources

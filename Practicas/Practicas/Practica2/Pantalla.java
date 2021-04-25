@@ -17,11 +17,16 @@ public class Pantalla extends JFrame implements MouseListener, MouseMotionListen
     private static final long serialVersionUID = 1L;
     public Contenedor obj_pintable;
     public JButton btnColor;
+    public JButton btnTexto;
+    public int maxX;
+    public int maxY;
     public Pantalla() {
         initComponents();
     }
 
     public void initComponents() {
+        maxX=1100;
+        maxY=650;
         this.setLayout(new BorderLayout());
         this.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
@@ -29,12 +34,18 @@ public class Pantalla extends JFrame implements MouseListener, MouseMotionListen
             }
         });
         obj_pintable = new Contenedor();
-        btnColor = new JButton("Color (a)");
-        btnColor.setBounds(490,390,70,30);
-        ImageIcon b= new ImageIcon("recursos/b1.png");
+        btnColor = new JButton();
+        btnColor.setBounds(490,390,50,50);
+        ImageIcon b= new ImageIcon("recursos/bcolor.png");
         btnColor.setSize(140,139);
         btnColor.setIcon(new ImageIcon(b.getImage().getScaledInstance( btnColor.getWidth(), btnColor.getHeight(),Image.SCALE_SMOOTH)));
+        btnTexto = new JButton();
+        btnTexto.setBounds(490,390,50,50);
+        ImageIcon t= new ImageIcon("recursos/btexto.png");
+        btnTexto.setSize(140,139);
+        btnTexto.setIcon(new ImageIcon(t.getImage().getScaledInstance( btnTexto.getWidth(), btnTexto.getHeight(),Image.SCALE_SMOOTH)));
         Panel panel1= new Panel();
+        btnTexto.addActionListener(e -> btnTextoActionPerformed(e));
         btnColor.addActionListener(e -> btnColorActionPerformed(e));
         btnColor.addMouseMotionListener(this);
         obj_pintable.addMouseListener(this);
@@ -42,9 +53,10 @@ public class Pantalla extends JFrame implements MouseListener, MouseMotionListen
         obj_pintable.addKeyListener(this);
         this.addKeyListener(this);
         this.add(obj_pintable, BorderLayout.CENTER);
-        this.add(panel1, BorderLayout.NORTH);
+        this.add(panel1, BorderLayout.SOUTH);
         panel1.add(btnColor);
-        this.setSize(450,450);
+        panel1.add(btnTexto);
+        this.setSize(1000,650);
         this.setVisible(true);
     }
 
@@ -53,22 +65,27 @@ public class Pantalla extends JFrame implements MouseListener, MouseMotionListen
     }
     private void collisionChek()
     {
-        if(obj_pintable.getX() <= 10)
+        if(obj_pintable.getX() <= 440 && obj_pintable.getY() <= 350 )
         {
-            obj_pintable.setX(10);
+            maxX=440;
+            maxY=350;
         }
-        if(obj_pintable.getX() >= 130)
-        {
-            obj_pintable.setX(130);
-        }
-        if(obj_pintable.getY() <= 100)
-        {
-            obj_pintable.setY(100);
-        }
-        if(obj_pintable.getY() >= 320)
-        {
-            obj_pintable.setY(320);
-        }
+            if(obj_pintable.getX() >= maxX)
+            {
+                obj_pintable.setX(maxX);
+            }
+
+            if(obj_pintable.getY() >= maxY)
+            {
+                obj_pintable.setY(maxY);
+            }
+            
+        
+       
+    }
+    private void btnTextoActionPerformed(ActionEvent e) {
+        String Nombre=JOptionPane.showInputDialog("Escriba el texto");
+        obj_pintable.setstr(Nombre);
     }
   private void btnColorActionPerformed(ActionEvent e) {
         int col;
@@ -100,10 +117,11 @@ public class Pantalla extends JFrame implements MouseListener, MouseMotionListen
             obj_pintable.setW(arg0.getX());
             obj_pintable.setH(arg0.getY());
             obj_pintable.repaint();
-        } else {
-            obj_pintable.setX(250);
-            obj_pintable.setY(270);
-        }
+        } 
+        //else {
+          //  obj_pintable.setX();
+            //obj_pintable.setY();
+        //}
         obj_pintable.setClicked();
     }
 
@@ -177,7 +195,18 @@ public class Pantalla extends JFrame implements MouseListener, MouseMotionListen
         }
         JOptionPane.showMessageDialog(null, "Color cambiado, de click para ver el nuevo ");
             }
+           
             obj_pintable.repaint();
+        }
+        if (!obj_pintable.isClicked()) {
+            switch(arg0.getKeyChar()) {
+                case 's':
+                case 'S':
+        String Nombre=JOptionPane.showInputDialog("Escriba el texto");
+        obj_pintable.setstr(Nombre);
+        obj_pintable.repaint();
+        break;
+            }
         }
     }
 

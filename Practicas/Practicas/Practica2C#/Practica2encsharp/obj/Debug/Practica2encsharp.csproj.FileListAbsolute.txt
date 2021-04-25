@@ -8,3 +8,13 @@ C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.cspr
 C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.exe
 C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.pdb
 C:\Users\Jonatan\source\repos\Practica2encsharp\obj\Debug\Practica2encsharp.csprojAssemblyReference.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\bin\Debug\Practica2encsharp.exe.config
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\bin\Debug\Practica2encsharp.exe
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\bin\Debug\Practica2encsharp.pdb
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\obj\Debug\Practica2encsharp.csprojAssemblyReference.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\obj\Debug\Practica2encsharp.Form1.resources
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\obj\Debug\Practica2encsharp.Properties.Resources.resources
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\obj\Debug\Practica2encsharp.csproj.GenerateResource.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\obj\Debug\Practica2encsharp.csproj.CoreCompileInputs.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\obj\Debug\Practica2encsharp.exe
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Practica2C#\Practica2encsharp\obj\Debug\Practica2encsharp.pdb
