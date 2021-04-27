@@ -1,6 +1,4 @@
 package Practicas.Java.Practica2;
-
-
 import java.awt.*;
 
 public class Contenedor extends Canvas{
