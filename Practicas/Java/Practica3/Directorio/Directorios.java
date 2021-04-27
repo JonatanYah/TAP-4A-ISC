@@ -5,7 +5,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 public class Directorios {
 
-    String[] directorios;
+    String[] direc;
     int i = 0;
     int tam = 0;
 
@@ -15,14 +15,14 @@ public class Directorios {
 
             Document doc = Jsoup.connect(host).get();
             Elements imports = doc.select("[href]");
-            directorios = new String[imports.size()];
+            direc = new String[imports.size()];
             tam = imports.size();
 
             for (Element url : imports) {
-                directorios[i] = (url.tagName() + url.attr("abs:href") + "\n");
+                direc[i] = (url.tagName() + url.attr("abs:href") + "\n");
                 i++;
             }
-            return directorios;
+            return direc;
         } catch (Exception e) {
             System.out.print("Error al obtener HTML");
         }
