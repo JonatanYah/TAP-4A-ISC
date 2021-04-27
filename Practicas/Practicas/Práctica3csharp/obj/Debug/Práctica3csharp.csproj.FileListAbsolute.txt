@@ -1,0 +1,10 @@
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\bin\Debug\Práctica3csharp.exe.config
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\bin\Debug\Práctica3csharp.exe
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\bin\Debug\Práctica3csharp.pdb
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\obj\Debug\Práctica3csharp.csprojAssemblyReference.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\obj\Debug\Práctica3csharp.Form1.resources
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\obj\Debug\Práctica3csharp.Properties.Resources.resources
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\obj\Debug\Práctica3csharp.csproj.GenerateResource.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\obj\Debug\Práctica3csharp.csproj.CoreCompileInputs.cache
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\obj\Debug\Práctica3csharp.exe
+C:\Users\Jonatan\Documents\TAP\TAP-4A-ISC\Practicas\Practicas\Práctica3csharp\obj\Debug\Práctica3csharp.pdb
