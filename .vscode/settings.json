@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
     "java.project.sourcePaths": [
-        "Practicas/Practicas/Practica2"
+        "Practicas/Practicas/Practica2"]
+=======
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\descargas\\jsoup-1.13.1.jar"
+>>>>>>> fb7df0776c59197a1c774e780dea4edfa6191b24
     ]
 }
