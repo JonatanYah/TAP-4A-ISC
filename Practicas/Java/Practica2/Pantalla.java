@@ -1,4 +1,4 @@
-package Practicas.Practicas.Practica2; 
+package Practicas.Java.Practica2; 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.BorderLayout;

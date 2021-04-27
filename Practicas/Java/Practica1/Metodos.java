@@ -1,4 +1,4 @@
-package Practicas.Practicas.Practica1;
+package Practicas.Java.Practica1;
 
 public class Metodos {
     
