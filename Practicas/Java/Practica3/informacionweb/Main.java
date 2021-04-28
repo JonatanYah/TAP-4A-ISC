@@ -1,17 +1,17 @@
 package informacionweb;
-
 import Ventana.Venta;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-
 public class Main {
-    public static void main(String[] args) {
-        Venta ventananueva = new Venta();
-        ventananueva.addWindowListener(new WindowAdapter() {
+     public static void main(String [] args)
+{
+   Venta v= new Venta();
+         v.addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
             }
         });
-
-    }
+        
 }
+}
+

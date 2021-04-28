@@ -65,7 +65,7 @@ public class Venta extends Frame implements ActionListener{
         String host = "https://itescam.edu.mx";
         Informacionweb i =new Informacionweb();
         String html;
-            Document a =(i.gethtml(host));
+            Document a =(i.getHTML(host));
            String f= a.toString();
             txt_result.setText("Documento principal: \n"+f);
          // html= Document.toString(a);

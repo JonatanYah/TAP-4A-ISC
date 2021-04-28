@@ -5,8 +5,8 @@ public class TiempoCarga {
     
     public double carga(String host){
         try {
-            Socket s= new Socket(host, 80);
-           double tiempcarga = s.getSoTimeout();
+            Socket socket = new Socket(host, 80);
+           double tiempcarga = socket.getSoTimeout();
            return tiempcarga;
         } catch (Exception e) {
         }

@@ -4,7 +4,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.Jsoup;
 
 public class Informacionweb  {
-public static Document gethtml(String host){
+public static Document getHTML(String host){
     Document html =null;
    
     try{
