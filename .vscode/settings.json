@@ -4,10 +4,11 @@
         " d: \\ 980016451 \\ Descargas \\ Practica3 \\ jsoup-1.13.1.jar "
     ],
     "java.project.sourcePaths": [
+        "Practicas/Java/Practica2",
         "Practicas/Java/Practica1",
         "Ejercicios/Ejercicio8",
         "Ejercicios/Ejercicio5",
         "Ejercicios/EditorTexto",
-        "Practicas/Java/Practica2"
+        "recursos/Ejercicios2p/Servidorconhilos"
     ]
 }
