@@ -8,9 +8,7 @@ public class Barco {
 	private BarcoP[] piezas;
 	private Point posicioninicial;
 
-	/*
-	 * Constructor. Establece piezas iguales al parámetro de lista
-	 */
+
 	Barco(BarcoP[] list) {
 		piezas = list;
 		posicioninicial = new Point(0,0);
@@ -20,11 +18,6 @@ public class Barco {
 		piezas = list.toArray(new BarcoP[0]);
 		posicioninicial = new Point(0,0);
 	}
-
-
-	/*
-	 * Si todas las piezas del barco están muertas, devuelve que el barco está muerto.
-	 */
 	public boolean acabado() {
 		boolean isDead = true;
 		for (int i = 0; i < piezas.length; i++) {
@@ -34,10 +27,6 @@ public class Barco {
 		}
 		return isDead;
 	}
-
-	/*
-	 * devuelve el conjunto de piezas del barco
-	 */
 	public BarcoP[] getpiezas() {
 		return piezas;
 	}
