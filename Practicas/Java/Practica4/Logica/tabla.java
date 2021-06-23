@@ -14,7 +14,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
-
 import javax.imageio.ImageIO;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -40,32 +39,26 @@ public class tabla extends JPanel {
 	public static final int TILE_SIZE = 47;
 	public static final int BORDER_SIZE = 5;
 	public static boolean currentlyPlacingShip = false;
-
 	public tabla(Barco[] shipArray, JFrame app) {
 		this(shipArray, 10, app);
 	}
-
 	public tabla(Barco[] shipArray, int gridSize, JFrame app) {
 		this(shipArray, gridSize, "gridLabels.png", app);
 	}
-
 	public tabla(Barco[] barcoArray, int gridSize, String path, JFrame app) {
 		setLayout(null);
 		setBackground(Color.white);
 		setLocation(0,0);
 		window = app;
-
 		Object[][] grid = new Object[gridSize][gridSize];
 		for (int i = 0; i < grid.length; i++) {
 			for (int j = 0; j < grid[i].length; j++) {
 				grid[i][j] = 1;
 			}
 		}
-
 		gridArray = grid;
 		this.barcoArray = barcoArray;
 		panelArray = new JPanel[barcoArray.length];
-
 		try {
 			gridImage = ImageIO.read(new File(path));
 		} catch (IOException e) {
